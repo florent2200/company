@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat Alternates", serif;
+}
+
+.container{
+    max-width: 1000px;
+    margin: auto;
+    padding: 100px 0;
+}
+
+.title{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+
+
+.menu{
+    background-color: black;
+    height: 60px;
+    line-height: 60px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+}
+.menu_links{
+    float: right;
+}
+.menu_links a{
+    color: #f4efef;
+    text-decoration: none;
+    font-size: 22px;
+    margin-right: 15px;
+
+}
+.menu_links a:hover{
+    color: burlywood;
+}
+.menu_logo{
+    margin-top: 8px;
+    margin-left: 20px;
+}
+
+
+
+
+
+.header{
+width: 100%;
+height: 100vh;
+background: linear-gradient( #DB7E7E , #FFC997);
+position: relative;
+text-align: center;
+overflow: hidden;
+}
+.header_content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+h1{
+    text-align: center;
+    font-size: 90px;
+    text-shadow: 5px 5px 1px rgb(180, 93, 107);
+    color: #ffffff;
+    
+}
+
+.header a{
+    background-color: white;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    padding: 20px 50px;
+    border-radius: 75px;
+    box-shadow: 10px 10px 1px rgb(180, 93, 107);
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+}
+.circle1{
+    position: absolute;
+    left: -45px;
+    top: -150px;
+}
+.circle2{
+    position: absolute;
+    right: -45px;
+    top: -150px;
+}
+.circle3{
+    position: absolute;
+    left: -25px;
+    bottom: -59px;
+    width: 25%;
+}
+.circle-bordered{
+    position: absolute;
+    left: 220px;
+    bottom: 0;
+}
+.circle-dashed-border{
+    position: absolute;
+    right: -175px;
+    bottom: -175px;
+}
+.triangle{
+    position: absolute;
+    top: 150px;
+    right: 1050px;
+}
+.octagon{
+    position: absolute;
+    top: 650px;
+}
+
+
+
+
+.make-left{
+    width: 49%;
+    display: inline-block;
+    vertical-align: top;
+}
+.make-rait{
+    width: 49%;
+    display: inline-block;
+}
+.make{
+    background: linear-gradient(7deg, #DB7E7E 18.07%, #FFC997 70%, #FFFFFF 70%);
+}
+.make-left p{
+    background-color: #f4efef;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 8px 8px 2px rgb(228, 139, 158);
+}
+.make-rait img{
+    width: 100%;
+}
+
+.services-card{
+    width: 30%;
+    display: inline-block;
+    border: 2px solid rgb(248, 169, 23);
+    border-radius: 15px;
+    padding-bottom: 100px;
+    padding-top: 20px;
+    text-align: center;
+    background: #f4efef;
+    margin: 5px;
+}
+
+.services{
+    background: linear-gradient(340.62deg, #FFFFFF 45.63%, #DB7F7E 45.64%);
+    text-align: center;
+}
+.services-card hr{
+    background: red;
+    width: 80%;
+    margin: 10px auto;
+    height: 4px;
+}
+.services h2{
+    color: #ffffff;
+}
+
+.good-card{
+    border: 2px solid #FFC997;
+    border-radius: 15px;
+    padding: 25px;
+    width: 60%;
+    margin:20px auto;
+    box-shadow: 5px 5px 5px plum;
+    background-color: #ffffff;
+}
+ ul{
+    padding-left: 15px;
+    list-style: circle;
+ }
+
+ .gc1{
+    position: relative;
+    right: 150px;
+    
+ }
+ .gc2{
+    position: relative;
+    left: 150px;
+ }
+ .good{
+    position: relative;
+ }
+ .good_img1{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 25%;
+ }
+ .good_img2{
+    position: absolute;
+    top: 10%;
+ } 
+
+.work_card{
+    display: inline-block;
+    border: 2px solid rgb(241, 211, 109);
+    width: 49%;
+    height:190px;
+    border-radius: 15px;
+    opacity: 0.9;
+}
+.wc1{
+    background: url(img/portfolio/site1.png) center/cover no-repeat;
+}
+.wc2{
+    background: url(img/portfolio/site2.png) center/cover no-repeat;
+}
+.wc3{
+    background: url(img/portfolio/site3.png) center/cover no-repeat;
+}
+.wc4{
+    background: url(img/portfolio/site4.png) center/cover no-repeat;
+}
+
+.work_card:hover{
+    opacity: 1;
+    transform: scale(1.02)
+}
+
+.write{
+    background: linear-gradient( #DB7E7E , #FFC997);
+    text-align: center;
+}
+
+.write a{
+    background-color: white;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 25px;
+    border-radius: 75px;
+    box-shadow: 10px 10px 1px rgb(180, 93, 107);
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+}
+
+
+
+
+@media(max-width:1203px){
+    .triangle{
+        display: none;
+    }
+    .octagon{
+        display: none;
+    }
+}
+
+@media(max-width:1105px){
+    .menu{
+        height: fit-content;
+    }
+    .good_img1{
+        display: none;
+    }
+    .good_img2{
+        display: none;
+    }
+}
+
+@media(max-width:920px){
+    .circle1{
+        display: none;
+    }
+    .circle2{
+        display: none;
+    }
+    .circle3{
+        display: none;    
+    }
+    .circle-bordered{
+        display: none;
+    }
+    .circle-dashed-border{
+        display: none;
+    }
+    .header a{
+        font-size: 20px;
+    }
+    .header h1{
+        font-size: 50px;
+    }
+    .abaut p{
+        padding: 40px;
+    }
+    .gc1{
+        position: relative;
+        right: 0px;
+        
+     }
+     .gc2{
+        position: relative;
+        left: 0px;
+     }
+}
+@media(max-width:800px) {
+    .make-left{
+        width: 65%;
+        display:block;
+        margin: auto;
+    }
+    .make-rait{
+        width: 80%;
+        display:block;
+        margin: auto;
+    }
+    .services-card{
+        display: block;
+        width: 45%;
+        margin: 10px auto;
+    }
+    .work_card{
+        display: block;
+        margin: 10px auto;
+        width: 90%;
+    }
+}
+@media(max-width:550px){
+    .header{
+        height: 70vh;
+    }
+    .services-card{
+        width: 70%;
+    }
+    .good-card{
+        width: 85%;
+    }
+}
