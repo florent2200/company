@@ -337,12 +337,15 @@ h1{
 }
 @media(max-width:550px){
     .header{
-        height: 70vh;
+        height: 100vh;
     }
     .services-card{
         width: 70%;
     }
     .good-card{
         width: 85%;
+    }
+    .menu{
+        line-height: 30px;
     }
 }
